@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+growth_plan/node_modules/
+
+# Build output
+client/dist/
+client/build/
+
+# Environment files
+.env
+.env.local
+.env.production
+server/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PNG previews (large files - optional to commit)
+growth_plan/slide_*.png
+growth_plan/page_*.png
+growth_plan/output_*.png
+growth_plan/app_preview.png
+
+# Lock files (optional - include if you want reproducible installs)
+# package-lock.json
