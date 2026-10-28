@@ -8,13 +8,14 @@
       "buildCommand": "npm run build",
       "outputDirectory": "dist",
       "bindings": [
-        {
-          "type": "service",
-          "service": "server",
-          "format": "url",
-          "env": "SERVER_URL"
-        }
-      ]
+          {
+            "type": "service",
+            "service": "server",
+            "format": "url",
+            "env": "SERVER_URL"
+          }
+        ],
+        "fallback": "index.html"
     },
     "server": {
       "root": "server",
